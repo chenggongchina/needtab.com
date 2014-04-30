@@ -1,0 +1,103 @@
+/*
+ * This CSS file is for top search
+ */ 
+/*HO007 START: CSS ADDED FOR TOP SEARCH MODULES */
+body 
+{
+	background: rgb(240, 240, 220);
+}
+
+#center { margin-right: auto; margin-left: auto; }
+
+.SEARCHTEXT
+{
+	width:300px; 
+	height:30px;
+	line-height:30px;
+	font-weight: bold ;
+	font-size: large;
+	border:3px solid rgb(100, 100, 100);
+	vertical-align:middle;
+}
+
+.SEARCHBUTTON
+{
+	width:120px; height:30px;
+	font-size: large;
+	vertical-align:middle;
+	font-weight: bold ;
+	color: red; 
+}
+
+.NORMALTEXT
+{
+	margin:20px 50px 200px 400px;
+	color: red;
+	font-weight: bold ;
+	font-size: small;
+}
+
+.MainDiv
+{
+	position:absolute; left:50%;
+	margin:20px 0 0 -389px;
+	background: url("../pics/background.gif") no-repeat scroll left center rgb(240, 240, 220);  
+	height:434px; 
+	width:778px; 
+	border:0px;
+}
+
+.SearchBox
+{
+	position:absolute; top:15%; left:10%;
+	margin:0px auto;
+	
+}
+
+.Middle
+{
+	font-weight: bold ;
+	color: red;
+	float:right;
+	position:absolute; top:40%; left:60%; 
+	font-size: small;
+	border:1px solid #c00; 
+	background-color:rgba(100,100,100,0.5); 
+	background:#000\9; 
+	filter:alpha(opacity=50); 
+	width:200px; 
+	height:150px;
+	margin:00px auto; 
+	line-height:100%;
+	padding:10px;
+}
+
+
+.Foot
+{
+	float:right;
+	position:absolute; top:90%; left:50%;
+	height:0px; 
+	font-size: small;
+}
+
+A.style1:link { 
+text-decoration: none; 
+color: #000000; 
+font-weight: bold; 
+} 
+A.style1:visited { 
+text-decoration: none; 
+color: #000000; 
+font-weight: bold; 
+} 
+A.style1:active { 
+text-decoration: none; 
+color: #000000; 
+font-weight: bold; 
+} 
+A.style1:hover { 
+text-decoration: underline; 
+color: #000000; 
+font-weight: bold; 
+} 
